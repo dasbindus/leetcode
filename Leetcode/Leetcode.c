@@ -8,9 +8,11 @@
 int main()
 {
 	printf("---------- Start ---------\n");
-
-	test(1);
-
+	// Q78
+	int nums78[3] = { 1, 2, 3 };
+	int returnSize78;
+	int* returnColumnSizes78;
+	subsets(nums78, 3, &returnSize78, &returnColumnSizes78);
 
 	printf("----------- End ----------\n");
 	return 0;

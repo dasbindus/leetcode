@@ -5,6 +5,7 @@
 #include <stdio.h>
 
 #define DEBUG 1
+#define MAX_NUM 10000
 
 /**
 * Q78
